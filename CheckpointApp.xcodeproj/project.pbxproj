@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		621DA54E2CCAB16300DA31D3 /* CheckpointAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621DA54D2CCAB16300DA31D3 /* CheckpointAppApp.swift */; };
+		621DA5502CCAB16300DA31D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621DA54F2CCAB16300DA31D3 /* ContentView.swift */; };
+		621DA5522CCAB16300DA31D3 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621DA5512CCAB16300DA31D3 /* Item.swift */; };
+		621DA5542CCAB16500DA31D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 621DA5532CCAB16500DA31D3 /* Assets.xcassets */; };
+		621DA5572CCAB16500DA31D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 621DA5562CCAB16500DA31D3 /* Preview Assets.xcassets */; };
+		621DA5612CCAB16500DA31D3 /* CheckpointAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621DA5602CCAB16500DA31D3 /* CheckpointAppTests.swift */; };
+		621DA56B2CCAB16500DA31D3 /* CheckpointAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621DA56A2CCAB16500DA31D3 /* CheckpointAppUITests.swift */; };
+		621DA56D2CCAB16500DA31D3 /* CheckpointAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621DA56C2CCAB16500DA31D3 /* CheckpointAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		621DA55D2CCAB16500DA31D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 621DA5422CCAB16300DA31D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 621DA5492CCAB16300DA31D3;
+			remoteInfo = CheckpointApp;
+		};
+		621DA5672CCAB16500DA31D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 621DA5422CCAB16300DA31D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 621DA5492CCAB16300DA31D3;
+			remoteInfo = CheckpointApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		621DA54A2CCAB16300DA31D3 /* CheckpointApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckpointApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		621DA54D2CCAB16300DA31D3 /* CheckpointAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckpointAppApp.swift; sourceTree = "<group>"; };
+		621DA54F2CCAB16300DA31D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		621DA5512CCAB16300DA31D3 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		621DA5532CCAB16500DA31D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		621DA5562CCAB16500DA31D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		621DA55C2CCAB16500DA31D3 /* CheckpointAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckpointAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		621DA5602CCAB16500DA31D3 /* CheckpointAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckpointAppTests.swift; sourceTree = "<group>"; };
+		621DA5662CCAB16500DA31D3 /* CheckpointAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckpointAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		621DA56A2CCAB16500DA31D3 /* CheckpointAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckpointAppUITests.swift; sourceTree = "<group>"; };
+		621DA56C2CCAB16500DA31D3 /* CheckpointAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckpointAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		621DA5472CCAB16300DA31D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		621DA5592CCAB16500DA31D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		621DA5632CCAB16500DA31D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		621DA5412CCAB16300DA31D3 = {
+			isa = PBXGroup;
+			children = (
+				621DA54C2CCAB16300DA31D3 /* CheckpointApp */,
+				621DA55F2CCAB16500DA31D3 /* CheckpointAppTests */,
+				621DA5692CCAB16500DA31D3 /* CheckpointAppUITests */,
+				621DA54B2CCAB16300DA31D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		621DA54B2CCAB16300DA31D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				621DA54A2CCAB16300DA31D3 /* CheckpointApp.app */,
+				621DA55C2CCAB16500DA31D3 /* CheckpointAppTests.xctest */,
+				621DA5662CCAB16500DA31D3 /* CheckpointAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		621DA54C2CCAB16300DA31D3 /* CheckpointApp */ = {
+			isa = PBXGroup;
+			children = (
+				621DA54D2CCAB16300DA31D3 /* CheckpointAppApp.swift */,
+				621DA54F2CCAB16300DA31D3 /* ContentView.swift */,
+				621DA5512CCAB16300DA31D3 /* Item.swift */,
+				621DA5532CCAB16500DA31D3 /* Assets.xcassets */,
+				621DA5552CCAB16500DA31D3 /* Preview Content */,
+			);
+			path = CheckpointApp;
+			sourceTree = "<group>";
+		};
+		621DA5552CCAB16500DA31D3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				621DA5562CCAB16500DA31D3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		621DA55F2CCAB16500DA31D3 /* CheckpointAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				621DA5602CCAB16500DA31D3 /* CheckpointAppTests.swift */,
+			);
+			path = CheckpointAppTests;
+			sourceTree = "<group>";
+		};
+		621DA5692CCAB16500DA31D3 /* CheckpointAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				621DA56A2CCAB16500DA31D3 /* CheckpointAppUITests.swift */,
+				621DA56C2CCAB16500DA31D3 /* CheckpointAppUITestsLaunchTests.swift */,
+			);
+			path = CheckpointAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		621DA5492CCAB16300DA31D3 /* CheckpointApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 621DA5702CCAB16500DA31D3 /* Build configuration list for PBXNativeTarget "CheckpointApp" */;
+			buildPhases = (
+				621DA5462CCAB16300DA31D3 /* Sources */,
+				621DA5472CCAB16300DA31D3 /* Frameworks */,
+				621DA5482CCAB16300DA31D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheckpointApp;
+			productName = CheckpointApp;
+			productReference = 621DA54A2CCAB16300DA31D3 /* CheckpointApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		621DA55B2CCAB16500DA31D3 /* CheckpointAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 621DA5732CCAB16500DA31D3 /* Build configuration list for PBXNativeTarget "CheckpointAppTests" */;
+			buildPhases = (
+				621DA5582CCAB16500DA31D3 /* Sources */,
+				621DA5592CCAB16500DA31D3 /* Frameworks */,
+				621DA55A2CCAB16500DA31D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				621DA55E2CCAB16500DA31D3 /* PBXTargetDependency */,
+			);
+			name = CheckpointAppTests;
+			productName = CheckpointAppTests;
+			productReference = 621DA55C2CCAB16500DA31D3 /* CheckpointAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		621DA5652CCAB16500DA31D3 /* CheckpointAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 621DA5762CCAB16500DA31D3 /* Build configuration list for PBXNativeTarget "CheckpointAppUITests" */;
+			buildPhases = (
+				621DA5622CCAB16500DA31D3 /* Sources */,
+				621DA5632CCAB16500DA31D3 /* Frameworks */,
+				621DA5642CCAB16500DA31D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				621DA5682CCAB16500DA31D3 /* PBXTargetDependency */,
+			);
+			name = CheckpointAppUITests;
+			productName = CheckpointAppUITests;
+			productReference = 621DA5662CCAB16500DA31D3 /* CheckpointAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		621DA5422CCAB16300DA31D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					621DA5492CCAB16300DA31D3 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					621DA55B2CCAB16500DA31D3 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 621DA5492CCAB16300DA31D3;
+					};
+					621DA5652CCAB16500DA31D3 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 621DA5492CCAB16300DA31D3;
+					};
+				};
+			};
+			buildConfigurationList = 621DA5452CCAB16300DA31D3 /* Build configuration list for PBXProject "CheckpointApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 621DA5412CCAB16300DA31D3;
+			productRefGroup = 621DA54B2CCAB16300DA31D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				621DA5492CCAB16300DA31D3 /* CheckpointApp */,
+				621DA55B2CCAB16500DA31D3 /* CheckpointAppTests */,
+				621DA5652CCAB16500DA31D3 /* CheckpointAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		621DA5482CCAB16300DA31D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				621DA5572CCAB16500DA31D3 /* Preview Assets.xcassets in Resources */,
+				621DA5542CCAB16500DA31D3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		621DA55A2CCAB16500DA31D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		621DA5642CCAB16500DA31D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		621DA5462CCAB16300DA31D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				621DA5502CCAB16300DA31D3 /* ContentView.swift in Sources */,
+				621DA5522CCAB16300DA31D3 /* Item.swift in Sources */,
+				621DA54E2CCAB16300DA31D3 /* CheckpointAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		621DA5582CCAB16500DA31D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				621DA5612CCAB16500DA31D3 /* CheckpointAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		621DA5622CCAB16500DA31D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				621DA56D2CCAB16500DA31D3 /* CheckpointAppUITestsLaunchTests.swift in Sources */,
+				621DA56B2CCAB16500DA31D3 /* CheckpointAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		621DA55E2CCAB16500DA31D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 621DA5492CCAB16300DA31D3 /* CheckpointApp */;
+			targetProxy = 621DA55D2CCAB16500DA31D3 /* PBXContainerItemProxy */;
+		};
+		621DA5682CCAB16500DA31D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 621DA5492CCAB16300DA31D3 /* CheckpointApp */;
+			targetProxy = 621DA5672CCAB16500DA31D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		621DA56E2CCAB16500DA31D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		621DA56F2CCAB16500DA31D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		621DA5712CCAB16500DA31D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CheckpointApp/Preview Content\"";
+				DEVELOPMENT_TEAM = M7W98J26R9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = moe.sei.CheckpointApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		621DA5722CCAB16500DA31D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CheckpointApp/Preview Content\"";
+				DEVELOPMENT_TEAM = M7W98J26R9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = moe.sei.CheckpointApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		621DA5742CCAB16500DA31D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M7W98J26R9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = moe.sei.CheckpointAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheckpointApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CheckpointApp";
+			};
+			name = Debug;
+		};
+		621DA5752CCAB16500DA31D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M7W98J26R9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = moe.sei.CheckpointAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheckpointApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CheckpointApp";
+			};
+			name = Release;
+		};
+		621DA5772CCAB16500DA31D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M7W98J26R9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = moe.sei.CheckpointAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CheckpointApp;
+			};
+			name = Debug;
+		};
+		621DA5782CCAB16500DA31D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M7W98J26R9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = moe.sei.CheckpointAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CheckpointApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		621DA5452CCAB16300DA31D3 /* Build configuration list for PBXProject "CheckpointApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				621DA56E2CCAB16500DA31D3 /* Debug */,
+				621DA56F2CCAB16500DA31D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		621DA5702CCAB16500DA31D3 /* Build configuration list for PBXNativeTarget "CheckpointApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				621DA5712CCAB16500DA31D3 /* Debug */,
+				621DA5722CCAB16500DA31D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		621DA5732CCAB16500DA31D3 /* Build configuration list for PBXNativeTarget "CheckpointAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				621DA5742CCAB16500DA31D3 /* Debug */,
+				621DA5752CCAB16500DA31D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		621DA5762CCAB16500DA31D3 /* Build configuration list for PBXNativeTarget "CheckpointAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				621DA5772CCAB16500DA31D3 /* Debug */,
+				621DA5782CCAB16500DA31D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 621DA5422CCAB16300DA31D3 /* Project object */;
+}
